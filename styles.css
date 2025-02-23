@@ -143,22 +143,20 @@ p {
 .list--testimonial__figure {
   display: grid;
   grid-template-columns: auto 1fr;
-  grid-template-rows: repeat(2, auto);
   column-gap: 1.5rem;
   line-height: 1.2;
 }
 
 .figure__img {
-  grid-row: span 2;
   max-width: 42px;
   border-radius: 50%;
 }
 
-.figure__name {
+.fig-caption__name {
   font-weight: 700;
 }
 
-.figure__status {
+.fig-caption__status {
   color: var(--ink-status-blockquote);
 }
 
